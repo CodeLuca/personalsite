@@ -10,7 +10,7 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class='header'>
         <div id='title-container'>
           <h1 class='title animated fadeInDownBig'>LUCA MARCHAL.</h1>
           <h1 class='subtitle animated fadeInLeftBig'><i>WEB DEVELOPER. PROJECT MAKER. GRAPHIC DESIGNER.</i></h1>

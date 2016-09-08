@@ -4,10 +4,14 @@ import '../../../scss/about.scss';
 
 export default class About extends React.Component {
 
+  scroll() {
+
+  }
+
   render() {
     return (
       <div id='about-container'>
-        <div class='row'>
+        <div class='row top'>
           
           {/** Image on Left Side */}
           <div class='col-sm-4 about-photo-container'>

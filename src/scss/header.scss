@@ -33,15 +33,17 @@ $red: #EB484D;
   }
 }
 
-i.fa.fa-angle-down {
-  margin-top: -1em;
-  margin-bottom: 1em;
-  animation-delay: 1.4s;
-  font-size: 4em;
+.header {
+  i.fa.fa-angle-down {
+    margin-top: -1em;
+    margin-bottom: 1em;
+    animation-delay: 1.4s;
+    font-size: 4em;
 
-  &:hover {
-    color: $purple;
-    cursor: pointer;
+    &:hover {
+      color: $purple;
+      cursor: pointer;
+    }
   }
 }
 

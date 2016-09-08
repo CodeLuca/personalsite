@@ -2,16 +2,11 @@ $purple: #372B63;
 $red: #EB484D;
 
 #about-container {
+  padding: 0 8em 0 8em;
   min-height: 100vh;
   background: $purple;
-
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  .row {
-    margin: 0 8em 0 8em;
-  }
+  align-items: center;
 
   .about-photo-container {
     img {
@@ -37,6 +32,26 @@ $red: #EB484D;
       font-weight: 600;
     }
   }
+
+  .bottom {
+    background: $red;
+    overflow: hidden;
+
+    .row {
+      background: $red;
+
+      h1 {
+        padding-top: -10px;
+        font-size: 3em;
+        font-style: italic;
+      }
+    }
+
+    .fa.fa-angle-down {
+      font-size: 4em; 
+      padding-top: .6em;
+    }
+  }
 }
 
 // Media Queries.
@@ -46,7 +61,7 @@ $red: #EB484D;
   }
 
   #about-container .row {
-    margin: 0 2em 0 2em !important;
+    // margin: 0 2em 0 2em !important;
   }
 
   #about-container .about-text-container h1 {
